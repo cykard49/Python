@@ -19,6 +19,11 @@ word = "Camera"
 print (word)
 #you will get "word" as an output
 
+#to capitalize string
+# word = word.capitalize(), gives CAMERA
+
+#to concatenate additional letters to string
+# word = word + " Shot", gives Camera Shot
 
 ##############################################################
 ##############################################################
@@ -61,6 +66,19 @@ print (word)
 #############################################################
 ##############################################################
 
+#######################Dictionary########################
+##############################################################
+#exmaple of dictionary: x={'year':2021, 'money':20000}
+#dictionary has key:value pairing
+
+#concatination or adding value in dict example: x['state']='CA' gives x={'year':2021, 'money':20000, 'state':'CA'}
+
+#to delete value from dict example: del(x['year']) gives x={'money':20000, 'state':'CA'}, where 'year' has been deleted
+
+
+#############################################################
+##############################################################
+
 ##############Built-in function#########################
 ##############################################################
  ## to know the type of any value simply do 'type(value)'
@@ -89,6 +107,13 @@ print (word)
 #the output will be just 6, as it will just print '2 * 3' value
 # solution: add 'print(<value>)' in each line
 
+
+#to find methods availability for string object and to know what it does:
+# type object name in a cell, followed by period '.'
+# press tab key
+# scroll through list and select method
+# type '?'
+# run cell
 #############################################################
 ##############################################################
 
@@ -98,3 +123,10 @@ print (word)
 ##DO NOT WRITE PYTHON IN CAMELCASE (camelCase), JUST LIKE WE DO IN JAVA.
 ## '^' symbol is not exponentiation symbol in python.
 
+* To import packages in python, we can do it in 4 different ways:
+1. import <module_name>
+2. from <module_name> import <name(s)>
+3. from <module_name> import <name> as <alt_name>
+4. import <module_name> as <alt_name>
+
+* '=' in x=3, a='name', is called assignment.
